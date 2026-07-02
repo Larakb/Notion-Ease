@@ -17,11 +17,8 @@ export const metadata: Metadata = {
   title: 'Notion Ease : travailler sans s’épuiser',
   description:
     'Notion Ease analyse ton rythme de travail, ta charge de travail et tes pics de surcharge pour t’aider à adopter une organisation plus saine et durable.',
-  icons: {
-    icon: [{ url: '/notion-ease-logo.png', type: 'image/png' }],
-    shortcut: [{ url: '/notion-ease-logo.png', type: 'image/png' }],
-    apple: [{ url: '/notion-ease-logo.png', type: 'image/png' }],
-  },
+  // Le favicon est géré par la convention de fichier Next.js (app/icon.png +
+  // app/apple-icon.png), qui génère une URL hashée avec les bons en-têtes de cache.
 }
 
 export const viewport: Viewport = {
