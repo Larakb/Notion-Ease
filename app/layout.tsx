@@ -18,20 +18,9 @@ export const metadata: Metadata = {
   description:
     'Notion Ease analyse ton rythme de travail, ta charge de travail et tes pics de surcharge pour t’aider à adopter une organisation plus saine et durable.',
   icons: {
-    icon: [
-      {
-        url: '/notion-ease-logo.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/notion-ease-logo.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
+    icon: [{ url: '/notion-ease-logo.png', type: 'image/png' }],
+    shortcut: [{ url: '/notion-ease-logo.png', type: 'image/png' }],
+    apple: [{ url: '/notion-ease-logo.png', type: 'image/png' }],
   },
 }
 
